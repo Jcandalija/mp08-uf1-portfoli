@@ -1,0 +1,27 @@
+body {
+	background-image: linear-gradient(to left, #371c48, #604f75, #8d85a2, #c0bed1, #f9f9ff);
+}
+
+.seccionProyectos {
+	font-size: 55px;
+	font-family: Segoe UI;
+	position: absolute;
+	top: 70px;
+	left: 20%;
+}
+
+.seccionSobreMi {
+	font-size: 55px;
+	font-family: Segoe UI;
+	position: absolute;
+	right: 180px;
+	bottom: 285px;
+}
+
+.seccionContacto {
+	font-size: 55px;
+	font-family: Segoe UI;
+	position: absolute;
+	bottom: 110px;
+	left: 260px;
+}
