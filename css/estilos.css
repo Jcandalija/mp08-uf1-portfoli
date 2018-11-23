@@ -2,26 +2,141 @@ body {
 	background-image: linear-gradient(to left, #371c48, #604f75, #8d85a2, #c0bed1, #f9f9ff);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
 .seccionProyectos {
-	font-size: 55px;
+	font-size: 75px;
 	font-family: Segoe UI;
 	position: absolute;
-	top: 70px;
-	left: 20%;
+	top: 2px;
+	left: 15%;
 }
 
 .seccionSobreMi {
-	font-size: 55px;
+	font-size: 75px;
 	font-family: Segoe UI;
 	position: absolute;
-	right: 180px;
-	bottom: 285px;
+	right: 280px;
+	bottom: 290px;
+
 }
 
 .seccionContacto {
-	font-size: 55px;
+	font-size: 75px;
 	font-family: Segoe UI;
 	position: absolute;
-	bottom: 110px;
-	left: 260px;
+	bottom: 30px;
+	left: 280px;
+
+}
+
+.rrss {
+	height: 90px;
+	width: 90px;
+}
+
+.linkedin {
+	position: absolute;
+	bottom: 75px;
+	right: 60px;
+
+}
+
+.instagram  {
+	position: absolute;
+	bottom: 75px;
+	right: 180px;
+}
+
+.twitter  {
+	position: absolute;
+	bottom: 75px;
+	right: 300px;
+}
+
+.facebook {
+	position: absolute;
+	bottom: 75px;
+	right: 420px;
+}
+
+h1 {
+	transition: transform .2s;
+}
+
+h1:hover {
+	color: white;
+	font-size: 170px;
+	text-decoration: none;
+	-ms-transform: scale(1.1); /* Edge */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+a.seccion {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover.seccion {
+	color: white;
+	font-size: 170px;
+	text-decoration: none;
+}
+
+a:visted.seccion {
+	text-decoration: none;
+}
+
+img:hover {
+	-webkit-transform:scale(1.50); /* Safari y Chrome */
+    -moz-transform:scale(1.50); /* Firefox */
+    -ms-transform:scale(1.50); /* Edge */
+    -o-transform:scale(1.50); /* Opera */
+    transform:scale(1.50);
+}
+
+.volverMenu {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	bottom: 70px;
+	left: 150px;
+	background-color: #F2EEAC;
+	font-size: 20px;
+	font-family: Segoe UI;
+	text-align: center;
+	color: #6C3179;
+	text-decoration: none;
+	border: solid 1px white;
+    border-radius: 40px;
+
+}
+
+a.volverMenu {
+	text-decoration: none;
+}
+
+a:hover.volverMenu {
+	text-decoration: none;
+	color: #6C3179;
+}
+
+a:visted.volverMenu {
+	text-decoration: none;
+	color: #6C3179;
+}
+
+div:hover.volverMenu {
+	-webkit-transform:scale(1.30); /* Safari y Chrome */
+    -moz-transform:scale(1.30); /* Firefox */
+    -ms-transform:scale(1.30); /* Edge */
+    -o-transform:scale(1.30); /* Opera */
+    transform:scale(1.30);
 }
