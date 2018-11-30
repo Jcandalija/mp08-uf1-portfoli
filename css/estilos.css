@@ -94,7 +94,7 @@ a:visted.seccion {
 	text-decoration: none;
 }
 
-img:hover {
+img.rrss:hover {
 	-webkit-transform:scale(1.50); /* Safari y Chrome */
     -moz-transform:scale(1.50); /* Firefox */
     -ms-transform:scale(1.50); /* Edge */
@@ -139,4 +139,37 @@ div:hover.volverMenu {
     -ms-transform:scale(1.30); /* Edge */
     -o-transform:scale(1.30); /* Opera */
     transform:scale(1.30);
+}
+
+img.fotoContacto {
+	width: 500px;
+	height: 450px;
+	border-radius: 30%;
+	position: absolute;
+	top: 110px;
+	left: 70px;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img.fotoContacto:hover {
+	width: 600px;
+	height: 550px;
+	opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    z-index: 1;
+
+}
+
+.textoContacto {
+	font-family: Segoe UI;
+	position: absolute;
+	width: 1200px;
+	height: 900px;
+	right: 100px;
+	top: 135px;
+	text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    text-shadow: 1px 1px black;
 }
